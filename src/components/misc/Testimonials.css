@@ -1,0 +1,39 @@
+.textArea {
+    text-align: center;
+}
+
+.cust-container {
+    border: 2px solid rgb(102, 102, 102);
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0
+}
+  
+.cust-container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+  
+.cust-container img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+  
+.cust-container span {
+    font-size: 20px;
+    margin-right: 15px;
+}
+  
+@media (max-width: 500px) {
+    .cust-container {
+        text-align: center;
+    }
+    .cust-container img {
+        margin: auto;
+        float: none;
+        display: block;
+    }
+}
