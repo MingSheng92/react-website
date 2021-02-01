@@ -17,3 +17,4 @@ This is to install all the dependencies required to run the library.
 
 4. head to localhost:3000 to check out the application
 
+You may check out the article on (Medium)[https://cming0721.medium.com/building-a-basic-landing-page-with-react-576d50d985f2]
